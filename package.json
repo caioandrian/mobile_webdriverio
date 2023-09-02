@@ -1,0 +1,44 @@
+{
+  "name": "mobile_webdriverio",
+  "version": "0.1.0",
+  "readme": "",
+  "author": "Caio Andrian",
+  "description": "",
+  "scripts": {
+    "android-app:aws-bdd-exemplo-ct_appium": "wdio $DEVICEFARM_TEST_PACKAGE_PATH/config/aws_device_farm/app/exemplo/android_cucumber_ctappium.conf.js",
+    "android-web:local-bdd-exemplo-google": "wdio config/local/web/exemplo/android_cucumber_google.conf.js",
+    "allure:open": "allure open"
+  },
+  "keywords": [
+    "webdriverio",
+    "browserstack",
+    "appium",
+    "tests"
+  ],
+  "dependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@wdio/allure-reporter": "^7.31.1",
+    "@wdio/cli": "^7.31.1",
+    "@wdio/cucumber-framework": "^7.31.1",
+    "@wdio/local-runner": "^7.31.1",
+    "@wdio/mocha-framework": "^7.30.2",
+    "@wdio/spec-reporter": "^7.31.1",
+    "allure-commandline": "^2.22.2",
+    "appium-doctor": "^1.16.2",
+    "browserstack-local": "^1.5.3",
+    "chai": "^4.3.7",
+    "expect-webdriverio": "^3.6.0",
+    "faker-br": "^0.4.1",
+    "rimraf": "^3.0.2",
+    "wdio-video-reporter": "^3.5.0"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^7.31.1",
+    "@wdio/browserstack-service": "^7.31.1",
+    "fs-extra": "^10.1.0",
+    "multiple-cucumber-html-reporter": "^1.21.6",
+    "nock": "^13.3.2",
+    "typescript": "^4.9.5",
+    "wdio-lambdatest-service": "^1.0.17"
+  }
+}
