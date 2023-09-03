@@ -7,7 +7,8 @@
   "scripts": {
     "android-app:aws-bdd-exemplo-ct_appium": "wdio $DEVICEFARM_TEST_PACKAGE_PATH/config/aws_device_farm/app/exemplo/android_cucumber_ctappium.conf.js",
     "android-web:local-bdd-exemplo-google": "wdio config/local/web/exemplo/android_cucumber_google.conf.js",
-    "allure:open": "allure open"
+    "allure:open": "allure open",
+    "update-packages": "npx npm-check-updates"
   },
   "keywords": [
     "webdriverio",
