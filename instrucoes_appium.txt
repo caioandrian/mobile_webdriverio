@@ -1,0 +1,2 @@
+Após instalar o Appium, executar o comando no cmd:
+"appium -a 127.0.0.1 -p 4723 -pa "/wd/hub" --allow-cors --session-override"
