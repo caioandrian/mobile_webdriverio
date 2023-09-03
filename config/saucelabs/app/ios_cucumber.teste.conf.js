@@ -3,7 +3,7 @@ const { config: baseConfig } = require('../wdio.cucumber.shared.conf');
 baseConfig.cucumberOpts.require = ['./app/e2e/steps_definitions/ios/teste/teste.steps.js'];
 
 const testConfig = {
-  specs: ['./app/e2e/spec/ios/exemplo/teste.feature'],
+  specs: ['./app/e2e/spec/ios/teste/teste.feature'],
 
   //Não é possível acessar o APP de teste no device simulado
   capabilities: [{

@@ -1,9 +1,9 @@
 const { config: baseConfig } = require('../../wdio.cucumber.shared.conf.js');
 
-baseConfig.cucumberOpts.require = ['./app/e2e/steps_definitions/ios/teste.steps.js'];
+baseConfig.cucumberOpts.require = ['./app/e2e/steps_definitions/ios/teste/teste.steps.js'];
 
 const testConfig = {
-  specs: ['./app/e2e/spec/ios/teste.feature'],
+  specs: ['./app/e2e/spec/ios/teste/teste.feature'],
   
   //para ios será preciso outro app
   capabilities: [{
